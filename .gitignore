@@ -1,0 +1,36 @@
+venv/
+# Descarta todos los archivos ocultos
+.DS_Store
+*.swp
+.DS_Store?
+Thumbs.db
+.idea
+
+# Descarta archivos de configuración específicos
+.env
+.env.*
+
+# Descarta archivos de caché y temporales
+npm-debug.log*
+yarn-error.log*
+node_modules/*
+.npm
+.yarn
+*.log
+*.tsbuildinfo
+
+# Descarta archivos de build
+build/*
+dist/*
+coverage/*
+
+# Descarta archivos de IDEs
+.vscode/*
+
+# Descarta archivos de pruebas
+**/tests
+**/__tests__
+
+# Descarta archivos generados por herramientas
+*.min.js
+*.min.css
